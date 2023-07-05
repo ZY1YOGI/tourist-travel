@@ -7,11 +7,15 @@ module.exports = {
   ],
   theme: {
     extend: {
-      backgroundImage: {
-        'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
-        'gradient-conic':
-          'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
+      fontFamily: {
+        mukta: "Mukta",
+        museomoderno: "MuseoModerno",
+        "merienda-one": "'Merienda One'",
+        "song-myung": "'Song Myung'",
       },
+    },
+    container: {
+      center: true,
     },
   },
   plugins: [],

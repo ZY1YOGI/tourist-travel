@@ -1,27 +1,35 @@
+@import url("https://fonts.googleapis.com/css2?family=Mukta:wght@300;400;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=MuseoModerno:wght@600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Song+Myung:wght@400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Merienda+One:wght@400&display=swap");
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+/* ::-webkit-scrollbar {
+  width: 6px;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(#5f27a7, #a12d2d, #5f27a7);
+  border-radius: 8px;
+}
+
+::selection {
+  background-color: #585858;
+  color: #fff;
+} */
+
+
+@layer components {
+  .b-t {
+    @apply border-2 border-black;
   }
+  
 }
 
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+.border_gradient {
+  border-image: linear-gradient(0.25turn, #24354F, #387394, #32516B);
+  border-image-slice: 1;
+  border-bottom-color: transparent;
 }
