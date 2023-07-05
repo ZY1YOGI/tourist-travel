@@ -32,4 +32,5 @@
   border-image: linear-gradient(0.25turn, #24354F, #387394, #32516B);
   border-image-slice: 1;
   border-bottom-color: transparent;
+  color: #0000006e;
 }
