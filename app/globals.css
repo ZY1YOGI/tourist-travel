@@ -20,17 +20,27 @@
   color: #fff;
 } */
 
-
 @layer components {
   .b-t {
     @apply border-2 border-black;
   }
-  
 }
 
 .border_gradient {
-  border-image: linear-gradient(0.25turn, #24354F, #387394, #32516B);
+  border-image: linear-gradient(0.25turn, #2d405c, #31749b, #406786);
   border-image-slice: 1;
   border-bottom-color: transparent;
-  color: #0000006e;
+}
+
+.navigation {
+  @apply z-50 flex-col justify-center hidden px-8 py-5 text-xl tracking-widest rounded-xl space-y-5 border-x-4 items-stretch absolute top-[90%] left-[50%]
+  border-x-green-600 [box-shadow:_0px_8px_11px_#00000040] bg-body-light;
+
+  @apply md:flex md:static md:border-none md:flex-row md:shadow-none md:items-center md:space-y-0 md:space-x-3 md:text-xl md:p-0 md:font-semibold;
+  @apply lg:text-2xl lg:space-x-20;
+}
+
+.hero {
+  @apply container border-2 border-black;
+  @apply md:flex md:items-center;
 }
