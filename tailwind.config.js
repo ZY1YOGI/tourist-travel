@@ -19,6 +19,7 @@ module.exports = {
           light: "#E4E9F7",
           dark: "#0E1422",
         },
+        primary: "#1E83E7"
       },
     },
     container: {
