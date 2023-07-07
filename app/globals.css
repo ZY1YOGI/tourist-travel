@@ -6,19 +6,21 @@
 @tailwind components;
 @tailwind utilities;
 
-/* ::-webkit-scrollbar {
-  width: 6px;
+ ::-webkit-scrollbar {
+  width: 10px;
 }
 
 ::-webkit-scrollbar-thumb {
-  background: linear-gradient(#5f27a7, #a12d2d, #5f27a7);
+  background: linear-gradient(#2d405c, #31749b, #406786);
   border-radius: 8px;
 }
 
+/*
 ::selection {
   background-color: #585858;
   color: #fff;
 } */
+
 .loader {
   @apply fixed top-0 bottom-0 left-0 right-0 z-50 flex items-center justify-center text-center bg-black;
 }
