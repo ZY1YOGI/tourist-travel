@@ -17,7 +17,7 @@ export default function Home() {
       <header>
         <nav className="flex items-center justify-between py-3 px-[5%] relative sm:px-[6%] lg:px-[8%] md:py-5 border_gradient border-b-8">
           <div className="relative">
-            <h1 className="font-museomoderno sm:text-lg md:text-2xl">TRAVEL TRIAL</h1>
+            <h1 className="font-museomoderno sm:text-lg md:text-2xl dark:text-white">TRAVEL TRIAL</h1>
             <img src="/logo.svg" alt="logo TRAVEL TRIAL" className="absolute w-12 -right-7 -top-2" />
           </div>
           <ul className="navigation" ref={switchMenu}>
@@ -27,10 +27,10 @@ export default function Home() {
             <li><a href="#">Contact</a></li>
           </ul>
           <button className="md:hidden" onClick={() => switchMenu.current?.classList.toggle('!flex')} role="switch">
-            <FaBars size={25} className="block" />
+            <FaBars size={25} className="block dark:text-white" />
           </button>
           <div className="text-sm sm:text-lg md:flex md:space-x-3 md:text-2xl sm:font-semibold">
-            <button className="hidden md:block">Login</button>
+            <button className="hidden md:block dark:text-white">Login</button>
             <button className="px-4 py-1.5 bg-[#2079FF] text-white rounded-3xl md:px-6 md:py-2.5">Sign up</button>
           </div>
         </nav>
@@ -69,15 +69,25 @@ export default function Home() {
       </header>
 
 
+
+      <section className='b-t'>
+
+
+
+      </section>
+
+
+
+
       <footer className="relative z-10 dark:text-white pt-20 pb-8 lg:pt-[120px] lg:pb-16 max-lg:px-5 border-t-4 border_gradient">
         <div className="container mx-auto">
           <div className="flex flex-wrap -mx-3">
             <div className="w-full px-8 sm:w-2/3 lg:w-3/12">
               <div className="w-full mb-10">
                 <Link href="/" className="flex items-center mb-3 space-x-3">
-                  <h1 className="relative text-3xl font-bold dark:text-teal-50" data-aos="fade-right" data-aos-delay="350">TRAVEL TRIAL <img src="/logo.svg" alt="logo TRAVEL TRIAL" className="absolute w-12 -right-6 -top-2" /></h1>
+                  <h1 className="relative text-3xl font-bold dark:text-white" data-aos="fade-right" data-aos-delay="350">TRAVEL TRIAL <img src="/logo.svg" alt="logo TRAVEL TRIAL" className="absolute w-12 -right-6 -top-2" /></h1>
                 </Link>
-                <p className="mb-6 text-base text-gray-800 font-song-myung">
+                <p className="mb-6 text-base text-gray-800 font-song-myung dark:text-gray-300">
                   We always make our customer <br />
                   happy by providing as many <br />
                   choices as possible.
