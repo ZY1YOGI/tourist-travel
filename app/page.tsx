@@ -8,7 +8,7 @@ import { CiLocationOn, CiSearch } from 'react-icons/ci'
 import { CgCalendarDates } from 'react-icons/cg'
 import { MdOutlineKeyboardArrowDown } from 'react-icons/md'
 import { FaBars, FaFacebook, FaLink, FaTwitter, FaYoutube, FaLinkedin } from 'react-icons/fa'
-import { AiOutlineSend } from 'react-icons/ai'
+import { AiOutlineSend, AiFillStar } from 'react-icons/ai'
 
 export default function Home() {
   const switchMenu = useRef<HTMLUListElement>(null)
@@ -18,7 +18,7 @@ export default function Home() {
         <nav className="flex items-center justify-between py-3 px-[5%] relative sm:px-[6%] lg:px-[8%] md:py-5 border_gradient border-b-8">
           <div className="relative">
             <h1 className="font-museomoderno sm:text-lg md:text-2xl dark:text-white">TRAVEL TRIAL</h1>
-            <img src="/logo.svg" alt="logo TRAVEL TRIAL" className="absolute w-12 -right-7 -top-2" />
+            <img src="/logo.svg" alt="TRAVEL TRIAL" className="absolute w-12 -right-7 -top-2" />
           </div>
           <ul className="navigation" ref={switchMenu}>
             <li><a href="#">About</a></li>
@@ -47,7 +47,7 @@ export default function Home() {
               <div className="flex items-center space-x-3">
                 <CiLocationOn className="determine-icon" color="FF8888" />
                 <div>
-                  <button className="flex items-center text-gray-500">Location <MdOutlineKeyboardArrowDown size={20} /></button>
+                  <button className="flex items-center text-gray-500 dark:text-gray-100">Location <MdOutlineKeyboardArrowDown size={20} /></button>
                   <h2>Alexandria</h2>
                 </div>
               </div>
@@ -55,7 +55,7 @@ export default function Home() {
               <div className="flex items-center space-x-3">
                 <CgCalendarDates className="determine-icon" color="FF8888" />
                 <div>
-                  <button className="flex items-center text-gray-500">Date <MdOutlineKeyboardArrowDown size={20} /></button>
+                  <button className="flex items-center text-gray-500 dark:text-gray-100">Date <MdOutlineKeyboardArrowDown size={20} /></button>
                   <h2>11 january 2024</h2>
                 </div>
               </div>
@@ -70,9 +70,89 @@ export default function Home() {
 
 
 
-      <section className='b-t'>
+      <section className='mt-12 bg-[url(/bg-1.png)] bg-center bg-cover space-y-12'>
+        <h2 className='bg-body-light dark:bg-body-dark px-10 py-3 rounded-br-full max-w-max text-primary text-2xl font-bold'>WHAT WE SERVE</h2>
 
 
+        <div className='container text-white mt-8 flex justify-between flex-col md:flex-row pl-8'>
+          <h1 className='text-6xl font-song-myung'>Top <br /> Values <br /> For You</h1>
+          <div className='max-sm:mt-6'>
+            <h3 className='text-4xl font-song-myung'>Lots of Choices</h3>
+            <p className='pl-3.5 pt-2.5'>
+              Discover your dream <br />
+              destination from our <br />
+              selection of over 460 <br />
+              Various sites <br />
+              all over Egypt.
+            </p>
+          </div>
+          <div>
+            <h3 className='text-4xl font-song-myung'>Best Your Guide</h3>
+            <p className='pl-3.5 pt-2.5'>
+              Experience your <br />
+              destination like a local <br />
+              with our expert tour <br />
+              guide, who has over 15 <br />
+              years of experience in <br />
+              delivering unforgettable <br />
+              travel experiences
+            </p>
+          </div>
+          <div>
+            <h3 className='text-4xl font-song-myung'>Easy by Booking</h3>
+            <p className='pl-3.5 pt-2.5'>
+              Book your next adventure <br />
+              hassle-free with our easy <br />
+              and fast ticket purchase <br />
+              process. Start planning <br />
+              your journey today !
+            </p>
+          </div>
+        </div>
+
+
+
+        <div className='container text-white'>
+          <h1 className='text-5xl font-song-myung md:text-6xl max-sm:pl-3.5'>Explore Top Destinations</h1>
+
+          <div className='mt-12 flex flex-col md:flex-row max-sm:items-center md:space-x-8 max-sm:space-y-8'>
+
+            <div className='w-60 rounded-t-3xl'>
+              <img src="/img-1.svg" alt="" className='shadow-2xl p-0.5 rounded-lg shadow-gray-800'/>
+              <div className='text-center mt-1.5'>
+                <h2 className='text-3xl tracking-widest'>Alexandria</h2>
+                <h3>Egypt, Alexandria</h3>
+              </div>
+              <div className='flex justify-center mt-3 items-center space-x-3'>
+                <span className='flex bg-gray-300 px-3 rounded-lg'><AiFillStar color='FFC700' size={25}/>4.3</span>
+                <h3>2.8k review</h3>
+              </div>
+            </div>
+            <div className='w-60 rounded-t-3xl'>
+              <img src="/img-2.svg" alt="" className='shadow-2xl p-0.5 rounded-lg shadow-gray-800'/>
+              <div className='text-center mt-1.5'>
+                <h2 className='text-3xl tracking-widest'>Cairo</h2>
+                <h3>Egypt, cairo</h3>
+              </div>
+              <div className='flex justify-center mt-3 items-center space-x-3'>
+                <span className='flex bg-gray-300 px-3 rounded-lg'><AiFillStar color='FFC700' size={25}/>4.3</span>
+                <h3>2.8k review</h3>
+              </div>
+            </div>
+            <div className='w-60 rounded-t-3xl'>
+              <img src="/img-3.svg" alt="" className='shadow-2xl p-0.5 rounded-lg shadow-gray-800'/>
+              <div className='text-center mt-1.5'>
+                <h2 className='text-3xl tracking-widest'>Luxor</h2>
+                <h3>Egypt, luxor</h3>
+              </div>
+              <div className='flex justify-center mt-3 items-center space-x-3'>
+                <span className='flex bg-gray-300 px-3 rounded-lg'><AiFillStar color='FFC700' size={25}/>4.3</span>
+                <h3>2.8k review</h3>
+              </div>
+            </div>
+          </div>
+
+        </div>
 
       </section>
 
@@ -169,15 +249,15 @@ export default function Home() {
             </div>
             <div className="w-full px-4 sm:w-1/2 lg:w-3/12">
               <h2 className="mb-3 text-2xl font-bold ">Get in Touch</h2>
-                <p className="mb-3 text-base font-song-myung">
-                  Question or feedback? <br />
-                  We'd love to hear from you
-                </p>
+              <p className="mb-3 text-base font-song-myung">
+                Question or feedback? <br />
+                We'd love to hear from you
+              </p>
               <div className="flex items-center px-5 py-1.5 bg-white rounded-full [box-shadow:_0px_8px_11px_#00000040]">
                 <input type="email" name="contact" className="w-full bg-transparent border-none outline-none" placeholder="Email Address" />
-                <AiOutlineSend size={40}  className="p-1 text-white rounded-full cursor-pointer bg-primary"/>
+                <AiOutlineSend size={40} className="p-1 text-white rounded-full cursor-pointer bg-primary" />
               </div>
-              
+
               <p className="mt-5 text-base">&copy; 2023 All rights reserved for TRAVEL TRIAL</p>
 
             </div>

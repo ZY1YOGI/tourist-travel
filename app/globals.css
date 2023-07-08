@@ -82,7 +82,7 @@
 }
 
 .hero-img {
-  @apply relative xl:order-1;
+  @apply relative xl:order-1 lg:w-[650px] 2xl:w-auto;
 }
 
 .hero-content {
