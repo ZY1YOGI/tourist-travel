@@ -1,6 +1,10 @@
 
 import { AiFillStar } from 'react-icons/ai'
 import { Footer, Header } from '@/components';
+import Card from '@/components/card';
+
+
+
 
 export default function Home() {
   return (
@@ -9,7 +13,7 @@ export default function Home() {
 
 
 
-      <main className='mt-12 bg-[url(/bg-1.png)] bg-center bg-cover space-y-12'>
+      <section className='mt-12 pb-60 bg-[url(/bg-1.svg)] bg-center bg-cover space-y-12'>
         <h2 className='px-10 py-3 text-2xl font-bold rounded-br-full bg-body-light dark:bg-body-dark max-w-max text-primary'>WHAT WE SERVE</h2>
 
 
@@ -92,9 +96,56 @@ export default function Home() {
           </div>
 
         </div>
+      <button className='block px-12 py-3 mx-auto bg-white rounded-xl'>View More</button>
+      </section>
+
+      <section className='bg-[url(/bg-2.svg)]  bg-cover -mt-52 bg-top pt-48 text-white'>
+        <div className='flex flex-col md:flex-row'>
+          <div className='md:w-1/2'>
+            <img src="/car.svg" alt="" className='w-full' />
+          </div>
+          <div className='space-y-3 text-center md:w-1/2'>
+            <h2 className='text-5xl lg:text-8xl md:text-6xl font-song-myung'>Your trip <br /> Safari today!</h2>
+            <p className='tracking-wider text-[#FCC103] text-sx'>
+              Welcome to our jungle safari experience! Our tours <br />
+              offer a unique opportunity to witness the natural <br />
+              beauty and wildlife of the jungle up close. With <br />
+              experienced guides and well-planned itineraries, we <br />
+              a lifetime!
+            </p>
+          </div>
+        </div>
+
+        <div className='container flex flex-col mt-12 text-white md:flex-row max-sm:items-center md:space-x-8 max-sm:space-y-8'>
+          
+          {/* <Card img='/img-1.svg' title='Alexandria' region='Egypt, Alexandria' rate='4.3' review='2.8k' /> */}
+
+          <div className='w-60 rounded-t-3xl'>
+            <img src="/img-2.svg" alt="" className='shadow-2xl p-0.5 rounded-lg shadow-gray-800' />
+            <div className='text-center mt-1.5'>
+              <h2 className='text-3xl tracking-widest'>Cairo</h2>
+              <h3>Egypt, cairo</h3>
+            </div>
+            <div className='flex items-center justify-center mt-3 space-x-3'>
+              <span className='flex px-3 bg-gray-300 rounded-lg'><AiFillStar color='FFC700' size={25} />4.3</span>
+              <h3>2.8k review</h3>
+            </div>
+          </div>
+          <div className='w-60 rounded-t-3xl'>
+            <img src="/img-3.svg" alt="" className='shadow-2xl p-0.5 rounded-lg shadow-gray-800' />
+            <div className='text-center mt-1.5'>
+              <h2 className='text-3xl tracking-widest'>Luxor</h2>
+              <h3>Egypt, luxor</h3>
+            </div>
+            <div className='flex items-center justify-center mt-3 space-x-3'>
+              <span className='flex px-3 bg-gray-300 rounded-lg'><AiFillStar color='FFC700' size={25} />4.3</span>
+              <h3>2.8k review</h3>
+            </div>
+          </div>
+        </div>
 
 
-      </main>
+      </section>
 
 
 
