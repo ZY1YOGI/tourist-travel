@@ -119,5 +119,5 @@
 
 
 .footer-link {
-  @apply inline-block mb-2 text-xl tracking-wider hover:text-primary;
+  @apply inline-block mb-2 text-xl tracking-wider hover:text-primary max-sm:pl-3;
 }

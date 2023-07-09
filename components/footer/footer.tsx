@@ -5,7 +5,7 @@ import { AiOutlineSend } from 'react-icons/ai'
 
 export default function footer() {
   return (
-    <footer className="relative z-10 dark:text-white pt-20 pb-8 lg:pt-[120px] lg:pb-16 max-lg:px-5 border-t-4 border_gradient">
+    <footer className="relative z-10 dark:text-white pt-20 pb-8 lg:pt-[120px] lg:pb-16 max-lg:px-5 ">
       <div className="container mx-auto">
         <div className="flex flex-wrap -mx-3">
           <div className="w-full px-8 sm:w-2/3 lg:w-3/12">
