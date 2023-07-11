@@ -10,7 +10,7 @@ interface ICard {
 export const cardData: ICard[] = [
   {
     id: 1,
-    img: "/img-1.svg",
+    img: "/places/alx.jpg",
     title: "Alexandria",
     region: "Egypt, Alexandria",
     rate: "4.3",
@@ -18,7 +18,7 @@ export const cardData: ICard[] = [
   },
   {
     id: 2,
-    img: "/img-2.svg",
+    img: "/places/aswan.jpg",
     title: "Cairo",
     region: "Egypt, cairo",
     rate: "4.3",
@@ -26,7 +26,7 @@ export const cardData: ICard[] = [
   },
   {
     id: 3,
-    img: "/img-3.svg",
+    img: "/places/luxor.jpg",
     title: "Luxor",
     region: "Egypt, luxor",
     rate: "4.3",
@@ -34,9 +34,9 @@ export const cardData: ICard[] = [
   },
   {
     id: 4,
-    img: "/img-3.svg",
-    title: "Luxor",
-    region: "Egypt, luxor",
+    img: "/places/cairo.jpg",
+    title: "Cairo",
+    region: "Egypt, cairo",
     rate: "4.3",
     review: "2.8k",
   },

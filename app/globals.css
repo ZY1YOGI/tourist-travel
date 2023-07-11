@@ -5,6 +5,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@import "aos/dist/aos.css";
 
  ::-webkit-scrollbar {
   width: 10px;
@@ -120,4 +121,9 @@
 
 .footer-link {
   @apply inline-block mb-2 text-xl tracking-wider hover:text-primary max-sm:pl-3;
+}
+
+
+.btn-theme {
+  @apply flex justify-center p-2 transition ease-out hover:bg-gray-900 hover:text-white dark:text-white hover:dark:bg-slate-800 rounded-xl max-md:dark:border-x-white max-md:shadow max-md:rounded max-md:border-x-4 max-md:border-x-gray-900 max-md:p-1;
 }
