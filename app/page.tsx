@@ -1,7 +1,10 @@
-
+import type { Metadata } from 'next'
 import { Footer, Header, Services, Trip, OurExperience } from '@/components';
 
-
+export const metadata:Metadata = {
+  title: 'Marsa Alam Holiday',
+  description: 'Optional trips in Egypt Collective and private - Navy, Desert, Historical - move',
+}
 
 
 export default function Home() {
