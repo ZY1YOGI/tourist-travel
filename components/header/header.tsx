@@ -11,6 +11,7 @@ import { CiLocationOn, CiSearch } from 'react-icons/ci'
 import { CgCalendarDates } from 'react-icons/cg'
 import { MdOutlineKeyboardArrowDown } from 'react-icons/md'
 
+import hero from '@/public/hero.png'
 
 export default function header() {
   const switchMenu = useRef<HTMLUListElement>(null)
@@ -38,7 +39,9 @@ export default function header() {
       <nav className="flex items-center justify-between py-3 px-[5%] relative sm:px-[6%] lg:px-[8%] md:py-5 border_gradient border-b-8">
         <div className="relative">
           <h1 className="font-museomoderno sm:text-lg md:text-2xl dark:text-white" data-aos="fade-right">MA-HOLIDAY</h1>
-          <img src="/logo.svg" alt="TRAVEL TRIAL" className="absolute w-12 -right-7 -top-2" data-aos="fade-left" data-aos-duration="1500"/>
+          <svg width="56" height="29" viewBox="0 0 56 29" fill="none" xmlns="http://www.w3.org/2000/svg" className="absolute w-12 -right-7 -top-2" data-aos="fade-left" data-aos-duration="1500">
+            <path d="M55.6314 14.8267L53.9335 14.1257C42.962 9.5956 30.7319 16.95 29.5892 28.7648L26.1439 19.705C24.5236 15.4442 27.6062 10.8624 32.1634 10.7577L37.6586 10.6315L22.2533 10.9722L19.6858 3.82297L19.4929 5.7026C19.1857 8.69612 16.6641 10.9722 13.6549 10.9722L0.97935 10.9722C11.9699 -1.56775 30.7393 -3.58629 44.1449 6.33002L55.6314 14.8267Z" fill="#2079FF" />
+          </svg>
         </div>
         <ul className="navigation" ref={switchMenu}>
           <li><a href="#">About</a></li>
@@ -62,7 +65,7 @@ export default function header() {
         Explore the World
       </div>
       <section className="hero">
-        <Image src="/hero.svg" className="hero-img" alt="Hero" width={1080} height={1080} priority={true}/>
+        <Image src={hero} className="hero-img" alt="Hero Marsa Alam Holiday" width={1080} height={1080} priority />
         <div className="hero-content">
           <h1 className="hero-title" data-aos="fade-up-right" data-aos-duration="1500">Travel with <br /> purpose, make a <br /> difference in the <br /> world <MdFlightTakeoff className="inline-block" color="2079FF" /></h1>
           <p className="hero-description" data-aos="fade-up" data-aos-duration="750">We always make our customer happy by providing <br /> as many choices as possible.</p>

@@ -1,9 +1,9 @@
 
 export default function ourExperience() {
   return (
-    <div className="flex items-center justify-between container flex-col md:flex-row lg:-space-x-12">
+    <div className="container flex flex-col items-center justify-between md:flex-row lg:-space-x-12">
 
-      <img src="/ourExperience.svg" alt="our experience" />
+      <img src="/ourExperience.png" alt="our experience" />
 
 
       <div className="dark:text-white">
@@ -20,15 +20,15 @@ export default function ourExperience() {
           experience.
         </p>
 
-        <div className="flex md:space-x-5 mt-5 flex-col md:flex-row max-sm:space-y-8">
+        <div className="flex flex-col mt-5 md:space-x-5 md:flex-row max-sm:space-y-8">
           <div>
-            <span className="text-primary font-merienda-one text-6xl">10</span> <h3 className="text-xl">Years Experience</h3>
+            <span className="text-6xl text-primary font-merienda-one">10</span> <h3 className="text-xl">Years Experience</h3>
           </div>
           <div>
-            <span className="text-primary font-merienda-one text-6xl">300</span> <h3 className="text-xl">Destination<br /> Collaboration</h3>
+            <span className="text-6xl text-primary font-merienda-one">300</span> <h3 className="text-xl">Destination<br /> Collaboration</h3>
           </div>
           <div>
-            <span className="text-primary font-merienda-one text-6xl">40k+</span> <h3 className="text-xl">Happy<br /> customers</h3>
+            <span className="text-6xl text-primary font-merienda-one">40k+</span> <h3 className="text-xl">Happy<br /> customers</h3>
           </div>
         </div>
       </div>

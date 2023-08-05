@@ -5,7 +5,7 @@ export default function Trip() {
     <section className='bg-[url(/bg-2.svg)]  bg-cover -mt-52 bg-top pt-48 text-white'>
       <div className='flex flex-col md:flex-row'>
         <div className='md:w-1/2'>
-          <img src="/car.svg" alt="" className='w-full' />
+          <img src="/car.png" alt="" className='w-full' />
         </div>
         <div className='space-y-3 text-center md:w-1/2'>
           <h2 className='text-5xl lg:text-8xl md:text-6xl font-song-myung'>Your trip <br /> Safari today!</h2>
