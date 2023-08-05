@@ -1,5 +1,6 @@
 import Card from '@/components/card';
 import { cardData } from '@/data';
+import Link from 'next/link';
 
 
 export default function Services() {
@@ -53,7 +54,7 @@ export default function Services() {
           }
         </div>
       </div>
-      <button className='block px-12 py-3 mx-auto bg-white rounded-xl hover:bg-gray-300'>View More</button>
+      <Link href="/trips" className='block px-12 py-3 mx-auto text-xl text-center bg-white shadow-lg w-52 rounded-xl hover:bg-gray-300 shadow-white'>View More</Link>
     </section>
   )
 }
