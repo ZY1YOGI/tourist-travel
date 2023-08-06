@@ -1,6 +1,6 @@
 import type { Metadata } from 'next'
 import { Footer } from '@/components';
-import Navbar from '@/components/header/navbar';
+import Navbar from '@/components/header/Navbar';
 import { cardData } from '@/data';
 import Card from '@/components/card';
 
