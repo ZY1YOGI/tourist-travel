@@ -46,7 +46,7 @@ export default function Sidebar() {
     <aside className={style.aside}>
       <div className={style.container}>
         <Link href="/">
-          <img className={style.image} src="https://t4.ftcdn.net/jpg/04/50/97/71/360_F_450977120_iNKwznk27ghqhL58rvuh3w1xj1mPVHdy.jpg" alt="company skybal software" />
+          <img className={style.image} src="/apple-touch-icon.png" alt="MA-HOLIDAY" />
         </Link>
 
         {LINKS.map((link, id) => (
