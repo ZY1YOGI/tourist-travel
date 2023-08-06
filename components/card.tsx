@@ -1,5 +1,12 @@
 import Image from 'next/image';
 
+interface ICard {
+  id: number;
+  img: string;
+  title: string;
+  description: string;
+  tags: string[];
+}
 
 
 export default function card({ img, title, description, tags }: ICard) {

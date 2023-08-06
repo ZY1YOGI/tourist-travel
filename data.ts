@@ -1,3 +1,11 @@
+interface ICard {
+  id: number;
+  img: string;
+  title: string;
+  description: string;
+  tags: string[];
+}
+
 export const cardData: ICard[] = [
   {
     id: 1,
