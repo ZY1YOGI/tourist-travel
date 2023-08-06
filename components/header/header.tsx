@@ -6,7 +6,7 @@ import { CgCalendarDates } from 'react-icons/cg'
 import { MdOutlineKeyboardArrowDown } from 'react-icons/md'
 
 import hero from '@/public/hero.png'
-import Navbar from './navbar';
+import Navbar from './Navbar';
 
 export default function header() {
 
