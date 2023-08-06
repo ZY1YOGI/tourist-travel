@@ -46,10 +46,10 @@ export default function Services() {
 
       <div className='container text-white'>
         <h1 className='text-5xl font-song-myung md:text-6xl max-sm:pl-3.5' data-aos="fade-right" data-aos-duration="750">Explore Top Destinations</h1>
-        <div className='flex flex-col justify-center mt-12 md:flex-row max-sm:items-center md:space-x-8 max-sm:space-y-8'>
+        <div className='grid grid-cols-1 gap-5 p-10 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 justify-items-center'>
           {
             cardData.map((item) => (
-              <Card key={item.id} img={item.img} title={item.title} region={item.region} rate={item.rate} review={item.review} />
+              <Card id={item.id} key={item.id} img={item.img} title={item.title} description={item.description} tags={item.tags} />
             ))
           }
         </div>
