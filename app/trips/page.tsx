@@ -17,8 +17,8 @@ export default function Trips() {
 
       <main>
         <div className='mt-8 space-y-3 text-center'>
-          <h1 className='text-3xl font-song-myung md:text-5xl whitespace-nowrap'>Marsa Alam Holiday Trips</h1>
-          <p className='font-merienda-one px-1.5'>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cumque atque tenetur modi nisi doloribus facere</p>
+          <h1 className='text-3xl font-song-myung md:text-5xl whitespace-nowrap dark:text-white'>Marsa Alam Holiday Trips</h1>
+          <p className='font-merienda-one px-1.5 dark:text-gray-200'>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cumque atque tenetur modi nisi doloribus facere</p>
         </div>
 
 
