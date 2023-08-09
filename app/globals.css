@@ -7,6 +7,10 @@
 @tailwind utilities;
 @import "aos/dist/aos.css";
 
+html {
+  @apply scroll-smooth;
+}
+
 ::-webkit-scrollbar {
   width: 10px;
 }

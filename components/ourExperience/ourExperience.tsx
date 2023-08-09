@@ -6,7 +6,7 @@ export default function ourExperience() {
   return (
     <div className="container flex flex-col items-center justify-between md:flex-row lg:-space-x-12">
 
-      <Image src={ourExperienceImg} alt="our experience" width={800} height={800} />
+      <Image src={ourExperienceImg} alt="our experience" width={800} height={800} className='md:w-[50%]'/>
 
 
       <div className="dark:text-white">

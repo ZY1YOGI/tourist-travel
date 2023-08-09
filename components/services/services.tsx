@@ -5,7 +5,7 @@ import Link from 'next/link';
 
 export default function Services() {
   return (
-    <section className='mt-12 pb-60 bg-[url(/assets/bg/bg-1.jpg)] bg-center bg-cover space-y-12'>
+    <section className='mt-12 pb-60 bg-[url(/assets/bg/bg-1.jpg)] bg-center bg-cover space-y-12' id='services'>
       <h2 className='px-10 py-3 text-2xl font-bold rounded-br-full bg-body-light dark:bg-body-dark max-w-max text-primary' data-aos="fade-down-right" data-aos-duration="1000">WHAT WE SERVE</h2>
 
       <div className='container flex flex-col justify-between pl-8 mt-8 text-white md:flex-row'>

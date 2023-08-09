@@ -1,12 +1,12 @@
 "use client";
 
+import Link from 'next/link';
 import { useEffect, useRef } from 'react';
 import { FaBars } from 'react-icons/fa'
 import TagManager from 'react-gtm-module';
 import Aos from "aos";
 import { MdDarkMode } from 'react-icons/md'
-import Link from 'next/link';
-
+import { BsBarChartSteps } from 'react-icons/bs'
 export default function Navbar() {
   const switchMenu = useRef<HTMLUListElement>(null)
 
@@ -38,8 +38,16 @@ export default function Navbar() {
       </Link>
       <ul className="navigation" ref={switchMenu}>
         <li><Link href="/about-us">About</Link></li>
-        <li><a href="#">Services</a></li>
-        <li><a href="#">Pricing</a></li>
+        <li><a href="#services">Services</a></li>
+        <li className="relative group" id="nav-link-categories">
+          <button className="flex items-center">Trips <BsBarChartSteps className='ml-1.5' /></button>
+          <ul role="menu" className="group-hover:block z-50 text-center absolute hidden w-40 whitespace-nowrap space-y-5 top-8 left-[50%] max-md:left-[12%] border-4 border-x-white border-y-primary rounded-xl py-3 px-1 bg-body-light dark:bg-body-dark">
+            <li><Link className='block' href="/">@</Link></li>
+            <li><Link className='block' href="/">@ </Link></li>
+            <li><Link className='block' href="/">@</Link></li>
+            <li><Link className='block' href="/">@</Link></li>
+          </ul>
+        </li>
         <li><Link href="/contact-us">Contact</Link></li>
         <button className='btn-theme' role="switch" id="switch-theme" aria-checked="true" onClick={() => localStorage.getItem('theme') === 'light' ? (document.documentElement.className = 'dark', document.documentElement.setAttribute('data-theme', 'dark'), localStorage.setItem('theme', 'dark')) : (document.documentElement.className = 'light', document.documentElement.setAttribute('data-theme', 'light'), localStorage.setItem('theme', 'light'))}>
           <MdDarkMode size={28} />
