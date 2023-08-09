@@ -41,8 +41,8 @@ export default function Navbar() {
         <li><a href="#services">Services</a></li>
         <li className="relative group" id="nav-link-categories">
           <button className="flex items-center">Trips <BsBarChartSteps className='ml-1.5' /></button>
-          <ul role="menu" className="group-hover:block z-50 text-center absolute hidden w-40 whitespace-nowrap space-y-5 top-8 left-[50%] max-md:left-[12%] border-4 border-x-white border-y-primary rounded-xl py-3 px-1 bg-body-light dark:bg-body-dark">
-            <li><Link className='block' href="/">@</Link></li>
+          <ul role="menu" className="group-hover:block font-song-myung z-50 text-center absolute hidden whitespace-nowrap space-y-5 py-5 top-8 left-[50%] max-md:left-[-12%] border-4 border-x-white border-y-primary rounded-xl px-1 bg-body-light dark:bg-body-dark">
+            <li><Link className='block' href="/trips/mountain">Mountain trips</Link></li>
             <li><Link className='block' href="/">@ </Link></li>
             <li><Link className='block' href="/">@</Link></li>
             <li><Link className='block' href="/">@</Link></li>

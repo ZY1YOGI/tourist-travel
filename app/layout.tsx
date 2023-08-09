@@ -5,12 +5,12 @@ import Script from 'next/script';
 
 export const metadata: Metadata = {
   title: 'Marsa Alam Holiday',
-  keywords: ['Marsa Alam', 'Egypt', 'Trips', 'shore', 'Trips to Egypt'],
+  keywords: ['Marsa Alam', 'marsa alam holiday', 'Trips', 'Egypt', 'Trips to Egypt', 'shore', 'beaches', 'maldive Islands'],
   applicationName: 'MA-HOLIDAY',
-  authors: [{ name: 'Youssef Amjad', url: 'https://www.facebook.com/ZY1YOGi' }],
+  authors: [{ name: 'Youssef Amjad', url: 'https://www.facebook.com/ZY1YOGi' }, {name: 'Mahmoud Ibrahim', url: ''}],
   creator: 'Youssef Amjad',
   verification: { google: 'wZO1kaaUlZm8cLkM3C_dSzZu_XEW4XNbS7D_Xmjwpw4' },
-  category: '',
+  category: 'Trips',
   themeColor: [
     { media: "(prefers-color-scheme: dark)", color: "#0E1422" },
     { media: "(prefers-color-scheme: light)", color: "#E4E9F7" }
@@ -35,6 +35,11 @@ export const metadata: Metadata = {
       sizes: '180x180',
       url: '/apple-touch-icon.png',
     },
+    {
+      url: '/favicon.ico',
+      type: 'image/png',
+      rel: 'icon'
+    }
   ],
 }
 

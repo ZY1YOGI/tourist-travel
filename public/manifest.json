@@ -7,6 +7,10 @@
   "display": "standalone",
   "icons": [
     {
+      "src": "/favicon.ico",
+      "type": "image/png"
+    },
+    {
       "src": "/favicon-16x16.png",
       "sizes": "16x16",
       "type": "image/png"
