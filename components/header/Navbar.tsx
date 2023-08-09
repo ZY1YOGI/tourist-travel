@@ -40,7 +40,7 @@ export default function Navbar() {
         <li><a href="#">About</a></li>
         <li><a href="#">Services</a></li>
         <li><a href="#">Pricing</a></li>
-        <li><a href="#">Contact</a></li>
+        <li><Link href="/contact-us">Contact</Link></li>
         <button className='btn-theme' role="switch" id="switch-theme" aria-checked="true" onClick={() => localStorage.getItem('theme') === 'light' ? (document.documentElement.className = 'dark', document.documentElement.setAttribute('data-theme', 'dark'), localStorage.setItem('theme', 'dark')) : (document.documentElement.className = 'light', document.documentElement.setAttribute('data-theme', 'light'), localStorage.setItem('theme', 'light'))}>
           <MdDarkMode size={28} />
         </button>

@@ -27,7 +27,7 @@ export default function card({ img, title, description, tags }: ICard) {
             ))
           }
         </div>
-        <button className='block px-8 py-2 mx-auto my-3 text-xl text-center bg-white shadow-lg w-52 rounded-xl'>Show Prices</button>
+        <button className='block px-8 py-2 mx-auto my-3 text-xl text-center bg-white shadow-lg w-52 rounded-xl text-gray-800'>Show Prices</button>
       </div>
     </div>
   )

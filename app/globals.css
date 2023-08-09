@@ -78,7 +78,7 @@
 
 .hero {
   /* @apply container; */
-  @apply xl:flex xl:items-center xl:container;
+  @apply xl:flex xl:items-center xl:container xl:justify-between;
 }
 
 .hero-img {
