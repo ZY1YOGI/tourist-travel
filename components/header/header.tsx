@@ -27,7 +27,7 @@ export default function header() {
             <div className="flex items-center space-x-3">
               <CiLocationOn className="determine-icon" color="FF8888" />
               <div>
-                <button className="flex items-center text-gray-500 dark:text-gray-100">Location <MdOutlineKeyboardArrowDown size={20} /></button>
+                <button className="flex items-center w-full text-gray-500 dark:text-gray-100">Location <MdOutlineKeyboardArrowDown size={20} /></button>
                 <h2>Alexandria</h2>
               </div>
             </div>
@@ -35,7 +35,7 @@ export default function header() {
             <div className="flex items-center space-x-3">
               <CgCalendarDates className="determine-icon" color="FF8888" />
               <div>
-                <button className="flex items-center text-gray-500 dark:text-gray-100">Date <MdOutlineKeyboardArrowDown size={20} /></button>
+                <button className="flex items-center w-full text-gray-500 dark:text-gray-100">Date <MdOutlineKeyboardArrowDown size={20} /></button>
                 <h2>11 january 2024</h2>
               </div>
             </div>
