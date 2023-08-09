@@ -37,7 +37,7 @@ export default function Navbar() {
         </svg>
       </Link>
       <ul className="navigation" ref={switchMenu}>
-        <li><a href="#">About</a></li>
+        <li><Link href="/about-us">About</Link></li>
         <li><a href="#">Services</a></li>
         <li><a href="#">Pricing</a></li>
         <li><Link href="/contact-us">Contact</Link></li>
