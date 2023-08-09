@@ -4,7 +4,7 @@ import Navbar from '@/components/header/Navbar';
 
 export const metadata: Metadata = {
     title: 'Marsa Alam Holiday - About US',
-    description: 'About US Marsa Alam Holiday',
+    description: 'About Marsa Alam Holiday You can learn more about Marsa Alam Holiday You can see our customers and you can create a profile about us',
 }
 
 

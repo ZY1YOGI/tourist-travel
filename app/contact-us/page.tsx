@@ -5,7 +5,7 @@ import { FaFacebook, FaInstagram, FaTwitter, FaWhatsapp } from 'react-icons/fa';
 
 export const metadata: Metadata = {
   title: 'Marsa Alam Holiday - Contact US',
-  description: 'Contact US Marsa Alam Holiday',
+  description: 'Contact US Marsa Alam Holiday, You can communicate with us now by e-mail Marsa Alam the best',
 }
 
 

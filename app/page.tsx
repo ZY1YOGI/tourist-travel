@@ -3,7 +3,7 @@ import { Footer, Header, Services, Trip, OurExperience } from '@/components';
 
 export const metadata:Metadata = {
   title: 'Marsa Alam Holiday',
-  description: 'Optional trips in Egypt Collective and private - Navy, Desert, Historical - move',
+  description: 'Trips to Marsa Alam in Egypt The best experience of a trip to Marsa Alam - sea, desert, historical - movement',
 }
 
 
