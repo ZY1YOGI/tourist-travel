@@ -37,7 +37,6 @@ export default function footer() {
                     <FaLinkedin />
                   </Link>
                 </div>
-
               </div>
               <div className="space-y-3">
                 <p className="flex items-center text-sm font-medium">
@@ -67,7 +66,7 @@ export default function footer() {
             <div className="w-full mb-10">
               <h2 className="mb-6 text-3xl font-bold">About</h2>
               <ul>
-                <li><a href="#" className="footer-link">About Us</a></li>
+                <li><Link href="/about-us" className="footer-link">About Us</Link></li>
                 <li><a href="#" className="footer-link">Features</a></li>
                 <li><a href="#" className="footer-link">News</a></li>
                 <li><a href="#" className="footer-link">Menu</a></li>
@@ -78,9 +77,9 @@ export default function footer() {
             <div className="w-full mb-10">
               <h2 className="mb-6 text-3xl font-bold">Company</h2>
               <ul>
-                <li><a href="#" className="footer-link">About Us</a></li>
+                <li><Link href="/about-us" className="footer-link">About Us</Link></li>
                 <li><a href="#" className="footer-link">Partner with us</a></li>
-                <li><a href="#" className="footer-link">FAQ</a></li>
+                <li><Link href="/faq" className="footer-link">FAQ</Link></li>
                 <li><a href="#" className="footer-link">Blog</a></li>
               </ul>
             </div>
@@ -92,7 +91,7 @@ export default function footer() {
                 <li><a href="#" className="footer-link">Account</a></li>
                 <li><a href="#" className="footer-link">Support Center</a></li>
                 <li><a href="#" className="footer-link">Feedback</a></li>
-                <li><a href="#" className="footer-link">Contact us</a></li>
+                <li><Link href="/contact-us" className="footer-link">Contact us</Link></li>
                 <li><a href="#" className="footer-link">Accessibility</a></li>
               </ul>
             </div>
@@ -107,9 +106,7 @@ export default function footer() {
               <input type="email" name="contact" className="w-full bg-transparent border-none outline-none" placeholder="Email Address" />
               <AiOutlineSend size={40} className="p-1 text-white rounded-full cursor-pointer bg-primary" />
             </div>
-
             <p className="mt-5 text-base">&copy; 2023 All rights reserved for TRAVEL TRIAL</p>
-
           </div>
         </div>
       </div>
