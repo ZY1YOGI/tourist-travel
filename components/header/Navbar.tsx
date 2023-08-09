@@ -42,10 +42,10 @@ export default function Navbar() {
         <li className="relative group" id="nav-link-categories">
           <button className="flex items-center">Trips <BsBarChartSteps className='ml-1.5' /></button>
           <ul role="menu" className="group-hover:block font-song-myung z-50 text-center absolute hidden whitespace-nowrap space-y-5 py-5 top-8 left-[50%] max-md:left-[-12%] border-4 border-x-white border-y-primary rounded-xl px-1 bg-body-light dark:bg-body-dark">
-            <li><Link className='block' href="/trips/mountain">Mountain trips</Link></li>
-            <li><Link className='block' href="/">@ </Link></li>
-            <li><Link className='block' href="/">@</Link></li>
-            <li><Link className='block' href="/">@</Link></li>
+            <li><Link className='block' href="/trips/mountain">Mountain Trips</Link></li>
+            <li><Link className='block' href="/trips">Sea Trips</Link></li>
+            <li><Link className='block' href="/trips">Fishing Trips</Link></li>
+            <li><Link className='block' href="/trips">Shore Trips</Link></li>
           </ul>
         </li>
         <li><Link href="/contact-us">Contact</Link></li>
