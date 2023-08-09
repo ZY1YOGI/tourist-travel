@@ -1,0 +1,3 @@
+User-agent: *
+Disallow:
+Sitemap: https://ma-holiday.vercel.app/sitemap.xml

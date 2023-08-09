@@ -2,7 +2,7 @@
 
 import { useEffect, useRef } from 'react';
 import { FaBars } from 'react-icons/fa'
-// import TagManager from 'react-gtm-module';
+import TagManager from 'react-gtm-module';
 import Aos from "aos";
 import { MdDarkMode } from 'react-icons/md'
 import Link from 'next/link';
@@ -15,7 +15,7 @@ export default function Navbar() {
       delay: 0,
       duration: 300,
     })
-    // TagManager.initialize({ gtmId: 'GTM-NV54S9F' });
+    TagManager.initialize({ gtmId: 'GTM-NQVG4XV9' });
     const theme = localStorage.getItem("theme") ?? localStorage.setItem("theme", "light")
     if (theme === "light") {
       document.documentElement.className = "light";
@@ -55,3 +55,4 @@ export default function Navbar() {
     </nav>
   )
 }
+

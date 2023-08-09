@@ -9,7 +9,7 @@ interface ICard {
 export const cardData: ICard[] = [
   {
     id: 1,
-    img: "/places/alx.jpg",
+    img: "/assets/places/alx.jpg",
     title: "Alexandria",
     description:
       "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, Nonea! Maiores et perferendis eaque, exercitationem praesentium nihil.",
@@ -17,7 +17,7 @@ export const cardData: ICard[] = [
   },
   {
     id: 2,
-    img: "/places/aswan.jpg",
+    img: "/assets/places/aswan.jpg",
     title: "Cairo",
     description:
       "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, Nonea! Maiores et perferendis eaque, exercitationem praesentium nihil.",
@@ -25,7 +25,7 @@ export const cardData: ICard[] = [
   },
   {
     id: 3,
-    img: "/places/luxor.jpg",
+    img: "/assets/places/luxor.jpg",
     title: "Luxor",
     description:
       "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, Nonea! Maiores et perferendis eaque, exercitationem praesentium nihil.",
@@ -33,7 +33,7 @@ export const cardData: ICard[] = [
   },
   {
     id: 4,
-    img: "/places/cairo.jpg",
+    img: "/assets/places/cairo.jpg",
     title: "Cairo",
     description:
       "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, Nonea! Maiores et perferendis eaque, exercitationem praesentium nihil.",
