@@ -21,13 +21,13 @@ export default function header() {
       <section className="hero">
         <Image src={hero} className="hero-img" alt="Hero Marsa Alam Holiday" width={1080} height={1080} priority />
         <div className="hero-content">
-          <h1 className="hero-title" data-aos="fade-up-right" data-aos-duration="1500">Travel with <br /> ma-holiday, make a <br /> difference in the <br /> world <MdFlightTakeoff className="inline-block" color="2079FF" /></h1>
+          <h1 className="hero-title" data-aos="fade-up-right" data-aos-duration="1500">Travel with <br /> ma-holiday <br /> Fun is better <br /> world <MdFlightTakeoff className="inline-block" color="2079FF" /></h1>
           <p className="hero-description" data-aos="fade-up" data-aos-duration="750">We always make our customer happy by providing <br /> as many choices as possible.</p>
           <div className="determine">
             <div className="flex items-center space-x-3">
               <CiLocationOn className="determine-icon" color="FF8888" />
               <div>
-                <button className="flex items-center w-full text-gray-500 dark:text-gray-100">Location <MdOutlineKeyboardArrowDown size={25} /></button>
+                <button className="flex items-center w-full text-gray-500 dark:text-gray-100">Location <MdOutlineKeyboardArrowDown size={20} /></button>
                 <h2>Marsa Alam</h2>
               </div>
             </div>
@@ -35,7 +35,7 @@ export default function header() {
             <div className="flex items-center space-x-3">
               <CgCalendarDates className="determine-icon" color="FF8888" />
               <div>
-                <button className="flex items-center w-full text-gray-500 dark:text-gray-100">Date <MdOutlineKeyboardArrowDown size={25} /></button>
+                <button className="flex items-center w-full text-gray-500 dark:text-gray-100">Date <MdOutlineKeyboardArrowDown size={20} /></button>
                 <h2>11 january 2024</h2>
               </div>
             </div>

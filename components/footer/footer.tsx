@@ -105,7 +105,7 @@ export default function Footer() {
               <input type="email" name="contact" className="w-full bg-transparent border-none outline-none" placeholder="Email Address" />
               <AiOutlineSend size={40} className="p-1 text-white rounded-full cursor-pointer bg-primary" />
             </div>
-            <p className="mt-5 text-base">&copy; 2023 All rights reserved for TRAVEL TRIAL</p>
+            <p className="mt-5 text-base">&copy; 2023 All rights reserved For MA-HOLIDAY</p>
           </div>
         </div>
       </div>
