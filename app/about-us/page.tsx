@@ -1,7 +1,6 @@
 import type { Metadata } from 'next'
 import { Footer } from '@/components';
 import Navbar from '@/components/header/Navbar';
-import Image from 'next/image';
 
 export const metadata: Metadata = {
     title: 'Marsa Alam Holiday - About US',
@@ -22,13 +21,13 @@ export default function AboutUs() {
                         <p className="mt-6 text-base font-normal leading-6 text-gray-600 dark:text-gray-200">We make trips to Egypt and Marsa Alam easier, faster and better. We have many years of experience in Egypt, especially Marsa Alam. Try us now and contact us. Or you can contact us via email. We are always here to make you and your family happy.</p>
                     </div>
                     <div className="w-full lg:w-6/12">
-                        <Image className="w-full rounded-md shadow" src="https://www.urtrips.com/wp-content/uploads/2018/10/Where-is-Marsa-Alam-3.jpg" alt="marsa alam" />
+                        <img className="w-full rounded-md shadow" src="https://www.urtrips.com/wp-content/uploads/2018/10/Where-is-Marsa-Alam-3.jpg" alt="marsa alam" />
                     </div>
                 </div>
 
                 <div className="relative mt-24">
                     <div className="grid grid-cols-2 gap-4 sm:grid-cols-3 sm:gap-8">
-                        <div className="z-20 w-12 h-12 bg-gray-800 rounded-full flex justify-center items-center">
+                        <div className="z-20 flex items-center justify-center w-12 h-12 bg-gray-800 rounded-full">
                             <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <path d="M5 5V21" stroke="white" strokeWidth="2.75" strokeLinecap="round" strokeLinejoin="round" />
                                 <path d="M19 5V14" stroke="white" strokeWidth="2.75" strokeLinecap="round" strokeLinejoin="round" />
@@ -53,7 +52,7 @@ export default function AboutUs() {
                             <path d="M33 33.0001V31.0001C32.9949 30.1173 32.6979 29.2609 32.1553 28.5645C31.6126 27.8682 30.8548 27.3708 30 27.1501" stroke="white" strokeWidth="2.75" strokeLinecap="round" strokeLinejoin="round" />
                         </svg>
                     </div>
-                    <hr className="z-10 absolute top-2/4 w-full border-gray-900 dark:border-white" />
+                    <hr className="absolute z-10 w-full border-gray-900 top-2/4 dark:border-white" />
                 </div>
                 <div className="grid grid-cols-2 gap-4 sm:grid-cols-3 sm:gap-8">
                     <div>
@@ -79,7 +78,7 @@ export default function AboutUs() {
                             <path d="M33 33.0001V31.0001C32.9949 30.1173 32.6979 29.2609 32.1553 28.5645C31.6126 27.8682 30.8548 27.3708 30 27.1501" stroke="white" strokeWidth="2.75" strokeLinecap="round" strokeLinejoin="round" />
                         </svg>
                     </div>
-                    <hr className="z-10 absolute top-2/4 w-full border-gray-900 dark:border-white" />
+                    <hr className="absolute z-10 w-full border-gray-900 top-2/4 dark:border-white" />
                 </div>
                 <div className="grid grid-cols-2 gap-4 sm:hidden sm:grid-cols-3 sm:gap-8">
                     <div>
@@ -97,7 +96,7 @@ export default function AboutUs() {
                     <div className="w-full lg:w-6/12">
                         <div className="grid grid-cols-1 gap-10 sm:grid-cols-2 lg:grid-cols-1 lg:gap-12">
                             {/* <!-- Team Card --> */}
-                            <div className="flex p-4 shadow-lg rounded-lg dark:shadow-gray-900">
+                            <div className="flex p-4 rounded-lg shadow-lg dark:shadow-gray-900">
                                 <div className="mr-6">
                                     <svg className="dark:fill-white" width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
                                         <path d="M18 15C20.4853 15 22.5 12.9853 22.5 10.5C22.5 8.01472 20.4853 6 18 6C15.5147 6 13.5 8.01472 13.5 10.5C13.5 12.9853 15.5147 15 18 15Z" stroke="#1F2937" strokeWidth="2.75" strokeLinecap="round" strokeLinejoin="round" />
@@ -112,7 +111,7 @@ export default function AboutUs() {
                             </div>
 
                             {/* <!-- Board Card --> */}
-                            <div className="flex p-4 shadow-lg rounded-lg dark:shadow-gray-900">
+                            <div className="flex p-4 rounded-lg shadow-lg dark:shadow-gray-900">
                                 <div className="mr-6">
                                     <svg className='dark:fill-white' width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
                                         <path d="M10.5 10.5C12.1569 10.5 13.5 9.15685 13.5 7.5C13.5 5.84315 12.1569 4.5 10.5 4.5C8.84315 4.5 7.5 5.84315 7.5 7.5C7.5 9.15685 8.84315 10.5 10.5 10.5Z" stroke="#1F2937" strokeWidth="2.75" strokeLinecap="round" strokeLinejoin="round" />
@@ -128,7 +127,7 @@ export default function AboutUs() {
                             </div>
 
                             {/* <!-- Press Card --> */}
-                            <div className="flex p-4 shadow-lg rounded-lg dark:shadow-gray-900">
+                            <div className="flex p-4 rounded-lg shadow-lg dark:shadow-gray-900">
                                 <div className="mr-6">
                                     <svg className='dark:fill-white' width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
                                         <path d="M28.5 7.5H7.5C5.84315 7.5 4.5 8.84315 4.5 10.5V25.5C4.5 27.1569 5.84315 28.5 7.5 28.5H28.5C30.1569 28.5 31.5 27.1569 31.5 25.5V10.5C31.5 8.84315 30.1569 7.5 28.5 7.5Z" stroke="#1F2937" strokeWidth="2.75" strokeLinecap="round" strokeLinejoin="round" />
