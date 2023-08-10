@@ -82,11 +82,11 @@ html {
 
 .hero {
   /* @apply container; */
-  @apply xl:flex xl:items-center xl:container xl:justify-between;
+  @apply lg:flex lg:items-center xl:container lg:justify-between;
 }
 
 .hero-img {
-  @apply relative xl:order-1 lg:w-[650px] xl:w-[700px];
+  @apply relative lg:order-1 lg:w-[650px] xl:w-[700px];
 }
 
 .hero-content {
