@@ -6,7 +6,7 @@ import Card from '@/components/card';
 
 export const metadata: Metadata = {
   title: 'Marsa Alam Holiday - Trips',
-  description: 'Trips in Egypt',
+  description: 'Trips to Marsa Alam in Egypt The best experience of a trip to Marsa Alam You can choose the prices that suit you We have a large list of trips to Marsa Alam',
 }
 
 

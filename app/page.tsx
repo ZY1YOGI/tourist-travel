@@ -19,7 +19,7 @@ export default function Home() {
       <div className='px-12 py-8 mx-auto text-center shadow-2xl md:px-28 max-w-max md:py-12 rounded-3xl whitespace-nowrap md:my-3 dark:text-white'>
         <h1 className='text-xl md:text-3xl'>
           Prepare Yourself & Let's Explore <br />
-          The Beauty Of The egypt
+          The beauty of Marsa Alam
         </h1>
         <p className='max-sm:text-xs'>We have many special offers especially for you.</p>
         <button className='block px-12 py-3 mx-auto mt-8 text-white bg-primary rounded-xl hover:bg-primary/70'>Get Started</button>

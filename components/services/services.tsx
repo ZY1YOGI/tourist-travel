@@ -45,7 +45,7 @@ export default function Services() {
       </div>
 
       <div className='container text-white'>
-        <h1 className='text-5xl font-song-myung md:text-6xl max-sm:pl-3.5' data-aos="fade-right" data-aos-duration="750">Explore Top Destinations</h1>
+        <h1 className='text-5xl font-song-myung md:text-6xl max-sm:pl-3.5' data-aos="fade-right" data-aos-duration="750">Explore Top Destinations For Marsa Alam</h1>
         <div className='grid grid-cols-1 gap-5 p-10 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 justify-items-center'>
           {
             cardData.map((item) => (

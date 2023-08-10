@@ -1,6 +1,7 @@
 import type { Metadata } from 'next'
 import { Footer } from '@/components';
 import Navbar from '@/components/header/Navbar';
+import Image from 'next/image';
 
 export const metadata: Metadata = {
     title: 'Marsa Alam Holiday - About US',
@@ -21,7 +22,7 @@ export default function AboutUs() {
                         <p className="mt-6 text-base font-normal leading-6 text-gray-600 dark:text-gray-200">We make trips to Egypt and Marsa Alam easier, faster and better. We have many years of experience in Egypt, especially Marsa Alam. Try us now and contact us. Or you can contact us via email. We are always here to make you and your family happy.</p>
                     </div>
                     <div className="w-full lg:w-6/12">
-                        <img className="w-full rounded-md shadow" src="https://www.urtrips.com/wp-content/uploads/2018/10/Where-is-Marsa-Alam-3.jpg" alt="marsa alam" />
+                        <Image className="w-full rounded-md shadow" src="https://www.urtrips.com/wp-content/uploads/2018/10/Where-is-Marsa-Alam-3.jpg" alt="marsa alam" />
                     </div>
                 </div>
 
