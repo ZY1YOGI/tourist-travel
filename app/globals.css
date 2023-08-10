@@ -86,7 +86,7 @@ html {
 }
 
 .hero-img {
-  @apply relative xl:order-1 lg:w-[650px] 2xl:w-auto;
+  @apply relative xl:order-1 lg:w-[650px] xl:w-[700px];
 }
 
 .hero-content {
@@ -116,7 +116,7 @@ html {
 }
 
 .determine-icon {
-  @apply text-2xl md:text-3xl lg:text-4xl;
+  @apply text-3xl lg:text-4xl;
 }
 
 .footer-link {
