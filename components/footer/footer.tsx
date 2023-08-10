@@ -11,7 +11,7 @@ export default function Footer() {
           <div className="w-full px-8 sm:w-2/3 lg:w-3/12">
             <div className="w-full mb-10">
               <Link href="/" className="flex items-center mb-3 space-x-3" title='Marsa Alam Holiday'>
-                <h1 className="relative text-2xl md:text-3xl font-bold dark:text-white whitespace-nowrap">MARSA ALAM HOLIDAY <svg width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg" className="absolute w-12 -right-6 -top-2">
+                <h1 className="relative text-2xl md:text-3xl font-bold dark:text-white whitespace-nowrap">MA-HOLIDAY <svg width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg" className="absolute w-12 -right-6 -top-2">
                     <path d="M55.6314 14.8267L53.9335 14.1257C42.962 9.5956 30.7319 16.95 29.5892 28.7648L26.1439 19.705C24.5236 15.4442 27.6062 10.8624 32.1634 10.7577L37.6586 10.6315L22.2533 10.9722L19.6858 3.82297L19.4929 5.7026C19.1857 8.69612 16.6641 10.9722 13.6549 10.9722L0.97935 10.9722C11.9699 -1.56775 30.7393 -3.58629 44.1449 6.33002L55.6314 14.8267Z" fill="#2079FF" />
                   </svg>
                 </h1>
