@@ -38,7 +38,7 @@ export const metadata: Metadata = {
     {
       url: '/favicon.ico',
       type: 'image/png',
-      rel: 'icon'
+      rel: 'shortcut icon'
     }
   ],
 }
