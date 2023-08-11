@@ -109,7 +109,7 @@ body {
 }
 
 .determine {
-  @apply flex items-center px-3 py-1 space-x-3 rounded-[30px] w-max [box-shadow:_0px_8px_11px_#00000040] text-xs sm:ml-5 dark:text-white;
+  @apply flex items-center px-3 py-1 space-x-3 rounded-[30px] w-max [box-shadow:_0px_8px_11px_#00000040] text-xs ml-2 sm:ml-5 dark:text-white;
   @apply sm:text-sm md:text-xl;
 }
 

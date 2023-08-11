@@ -51,6 +51,7 @@ export default function Navbar() {
           </ul>
         </li>
         <li><Link href="/contact-us" title='Marsa Alam Holiday - Contact Us'>Contact</Link></li>
+        <li><Link href="/faq" title='Marsa Alam Holiday - Frequently asked questions'>Faq</Link></li>
         <button className='btn-theme' role="switch" aria-label='switch theme' aria-checked="true" onClick={() => localStorage.getItem('theme') === 'light' ? (document.documentElement.className = 'dark', document.documentElement.setAttribute('data-theme', 'dark'), localStorage.setItem('theme', 'dark')) : (document.documentElement.className = 'light', document.documentElement.setAttribute('data-theme', 'light'), localStorage.setItem('theme', 'light'))}>
           <MdDarkMode size={28} />
         </button>
