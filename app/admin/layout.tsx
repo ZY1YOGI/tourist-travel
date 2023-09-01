@@ -1,5 +1,5 @@
 import './index.css'
-import { Header, Sidebar } from '@admin-components';
+import { Header, Sidebar } from '@admin-components/index';
 
 export default function AdminLayout({ children }: { children: React.ReactNode }) {
   return (

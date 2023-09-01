@@ -1,5 +1,5 @@
 import type { Metadata } from 'next'
-import { Footer, Header, Services, Trip, OurExperience } from '@web-components';
+import { Footer, Header, Services, Trip, OurExperience } from '@web-components/index';
 
 export const metadata:Metadata = {
   title: 'Marsa Alam Holiday',

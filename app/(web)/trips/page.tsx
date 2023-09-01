@@ -1,8 +1,9 @@
 import type { Metadata } from 'next'
-import { Footer } from '@/components/web';
-import Navbar from '@/components/header/Navbar';
+import Footer from '@web-components/footer/footer';
+import Navbar from '@web-components/header/Navbar';
 import { cardData } from '@/data';
-import Card from '@/components/card';
+import Card from '@web-components/card';
+
 
 export const metadata: Metadata = {
   title: 'Marsa Alam Holiday - Trips',

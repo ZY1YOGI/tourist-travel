@@ -1,4 +1,4 @@
-import Card from '@/components/card';
+import Card from '@web-components/card';
 import { cardData } from '@/data';
 import Link from 'next/link';
 
