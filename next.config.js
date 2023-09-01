@@ -1,8 +1,4 @@
 /** @type {import('next').NextConfig} */
-const nextConfig = {
-  env: {
-    mongodburl: "Your MongoDB connection String",
-}
-}
+const nextConfig = {}
 
 module.exports = nextConfig
