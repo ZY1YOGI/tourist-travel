@@ -12,8 +12,16 @@ export const metadata: Metadata = {
 
 export default async function Category() {
 
-  const getCategories = await axios.get('/api/category')
-  const categories = getCategories.data.categories
+  // const getCategories = await axios.get('/api/category')
+  // const categories = getCategories.data.categories
+  const categories = [{
+    id: 1,
+    name: 'test'
+  }, {
+    id: 2,
+    name: 'test'
+  }
+  ]
 
   return (
     <>
@@ -40,7 +48,7 @@ export default async function Category() {
             </tr>
           </thead>
           <tbody className='text-lg text-center md:text-2xl'>
-            {categories.map((category: {name: string, id: string}) => (
+            {categories.map((category: { id: string, name: string }) => (
               <tr className='border-b' key={category.id}>
                 <td>{category.name}</td>
                 <TableActions />
