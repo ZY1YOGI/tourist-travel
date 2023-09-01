@@ -15,28 +15,28 @@ import style from "./sidebar.module.css";
 
 const LINKS: { href: string, icon: JSX.Element }[] = [
   {
-    href: '/dashboard',
+    href: '/admin',
     icon: <AiOutlineHome size={35} title='Home' />
   }, {
-    href: 'dashboard/category',
+    href: 'admin/category',
     icon: <BiCategory size={35} title='Category' />
   }, {
-    href: 'dashboard/user',
+    href: 'admin/user',
     icon: <HiOutlineUsers size={35} title='User' />
   }, {
-    href: '/dashboard',
+    href: '/admin',
     icon: <SlBasket size={35} title='Home' />
   }, {
-    href: '/dashboard',
+    href: '/admin',
     icon: <LiaFileInvoiceSolid size={35} title='Home' />
   }, {
-    href: '/dashboard',
+    href: '/admin',
     icon: <MdOutlineNotificationsActive size={35} title='Home' />
   }, {
-    href: '/dashboard',
+    href: '/admin',
     icon: <TbSettingsCog size={35} title='Home' />
   }, {
-    href: '/dashboard',
+    href: '/admin',
     icon: <TbSettingsCog size={35} title='Home' />
   }
 ]

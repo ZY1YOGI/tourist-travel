@@ -1,6 +1,6 @@
 import { Header, Sidebar } from '@/components/dashboard'
 
-export default function DashboardLayout({ children }: { children: React.ReactNode }) {
+export default function AdminLayout({ children }: { children: React.ReactNode }) {
   return (
     <>
       <Header />
