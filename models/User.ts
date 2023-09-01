@@ -5,13 +5,13 @@ export class User {
   @prop({ default: () => nanoid(9) })
   public _id: string;
 
-  @prop()
+  @prop({ required: [true, 'The Name Is Required'] })
   public name: string;
 
-  @prop()
+  @prop({ required: [true, 'The E-mail Is Required'] })
   public email: string;
 
-  @prop()
+  @prop({ required: [true, 'The Password Is Required'] })
   public password: string;
 
   @prop({ default: () => new Date() })
