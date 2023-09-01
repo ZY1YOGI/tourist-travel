@@ -1,7 +1,7 @@
-import FormCategory from '@admin-components/forms/FormCategory';
-import { TableActions } from '@/components/table';
-import axios from 'axios';
 import type { Metadata } from 'next'
+import axios from 'axios';
+import FormCategory from '@admin-components/forms/FormCategory';
+import { TableActions } from '@admin-components/table';
 
 
 

@@ -1,8 +1,8 @@
-"use client"
+"use client";
+
 import { useForm } from 'react-hook-form';
 import axios from 'axios';
 import { useState } from 'react';
-import toast from 'react-hot-toast';
 import { CgSpinner } from 'react-icons/cg'
 
 interface IFormInput {
@@ -22,17 +22,10 @@ export default function FormCategory() {
     })
 
     if (response.data.status == 422) {
-      setError('name', { message: response.data.errors.name })
-      setError('description', { message: response.data.errors.description })
-      toast.error(`${response.data.message} ${response.data.status}`);
+      setError('name', { message: "response.data.errors.name" })
+      setError('description', { message: "response.data.errors.description" })
     }
 
-    if (response.data.status == 500) {
-      toast.error(`${response.data.message} ${response.data.status}`);
-    }
-    if(response.data.status == 200) {
-      toast.success(response.data.message);
-    }
     setLoading(false)
   }
 
@@ -47,7 +40,7 @@ export default function FormCategory() {
       </div>
       <div className='space-y-3'>
         <label htmlFor="input-description" className="x-label">Enter The Description Category <span className='requeued'>*</span></label>
-        <input {...register("description", { required: "The Description Category is Requeued" })} id="input-description" className="x-input" placeholder="Description" />
+        <textarea {...register("description", { required: "The Description Category is Requeued" })} id="input-description" className="x-input" placeholder="Description" />
         <span className="block text-red-500">{errors.description && (errors.description.message)}</span>
       </div>
       <div className='flex items-center justify-center'>

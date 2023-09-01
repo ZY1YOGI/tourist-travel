@@ -1,4 +1,5 @@
-import { Header, Sidebar } from '@/components/dashboard'
+import './index.css'
+import { Header, Sidebar } from '@admin-components';
 
 export default function AdminLayout({ children }: { children: React.ReactNode }) {
   return (
