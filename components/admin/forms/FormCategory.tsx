@@ -32,7 +32,7 @@ export default function FormCategory() {
 
 
   return (
-    <form onSubmit={handleSubmit(onSubmit)} className="grid grid-cols-2 mt-6 gap-x-5 gap-y-8 max-md:grid-cols-1">
+    <form onSubmit={handleSubmit(onSubmit)} className="grid grid-cols-2 mt-8 gap-x-5 gap-y-8 max-md:grid-cols-1">
       <div className='space-y-3'>
         <label htmlFor="input-name" className="x-label">Enter The Name Category <span className='requeued'>*</span></label>
         <input {...register("name", { required: "The Name Category is Requeued" })} id="input-name" className="x-input" placeholder="Name" />

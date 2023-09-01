@@ -3,7 +3,7 @@ import { MdOutlineEdit, MdOutlineRemoveRedEye } from "react-icons/md";
 
 export default function TableActions() {
   return (
-    <td className="flex justify-center space-x-3.5">
+    <td className="flex justify-center space-x-3">
       <button className="w-5 transition-all hover:text-green-700 hover:scale-125 md:w-6">
         <MdOutlineRemoveRedEye className="w-5 md:w-7" />
       </button>

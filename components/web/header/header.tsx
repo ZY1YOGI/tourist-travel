@@ -19,7 +19,7 @@ export default function header() {
         <h1>Explore The Marsa Alam</h1>
       </div>
       <section className="hero">
-        <Image src={hero} className="hero-img" alt="Hero Marsa Alam Holiday" width={1080} height={1080} priority />
+        <Image src={hero} className="hero-img" alt="Hero Marsa Alam Holiday logo" width={1080} height={1080} priority />
         <div className="hero-content">
           <h1 className="hero-title" data-aos="fade-up-right" data-aos-duration="1500">Travel with <br /> ma-holiday <br /> Fun is better <br /> world <MdFlightTakeoff className="inline-block" color="2079FF" /></h1>
           <p className="hero-description" data-aos="fade-up" data-aos-duration="750">We always make our customer happy by providing <br /> as many choices as possible.</p>
